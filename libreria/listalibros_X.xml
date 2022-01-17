@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<listalibros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="listalibros.xsd">
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Moreno</apellido1>
+                    <apellido2>Gil</apellido2>
+                    <nombre>Alvaro</nombre>
+                </autor>
+            </autores>
+            <titulo>La vida del guerreo</titulo>
+            <editorial>Samantas SM</editorial>
+            <fechaPublicacion>Junio 2016</fechaPublicacion>
+            <ISBN>5-5435-678-89</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Martinez</apellido1>
+                    <apellido2>Carloza</apellido2>
+                    <nombre>Jaime</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Rodriguez</apellido1>
+                    <apellido2>Galisteo</apellido2>
+                    <nombre>Paco</nombre>
+                </autor>
+            </autores>
+            <titulo>La Fortuna</titulo>
+            <editorial>Money Team TMº</editorial>
+            <fechaPublicacion>Enero de 2008</fechaPublicacion>
+            <ISBN>5-444-44-6555</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Gomez</apellido1>
+                    <apellido2>Arispon</apellido2>
+                    <nombre>Arispon</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Gomez</apellido1>
+                    <apellido2>Arispon</apellido2>
+                    <nombre>Paola</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Gomez</apellido1>
+                    <apellido2>Arispon</apellido2>
+                    <nombre>Paola</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Gomez</apellido1>
+                    <apellido2>Arispon</apellido2>
+                    <nombre>Paola</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Gomez</apellido1>
+                    <apellido2>Arispon</apellido2>
+                    <nombre>Paola</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+        <libro>
+            <autores>
+                <autor>
+                    <apellido1>Gomez</apellido1>
+                    <apellido2>Arispon</apellido2>
+                    <nombre>Paola</nombre>
+                </autor>
+            </autores>
+            <titulo>Lobo solitario</titulo>
+            <editorial>AirLoves TMº</editorial>
+            <fechaPublicacion>Enero de 2020</fechaPublicacion>
+            <ISBN>5-4323-546-654</ISBN>
+        </libro>
+</listalibros>
