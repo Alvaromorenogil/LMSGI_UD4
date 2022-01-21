@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="IS0-8859-1"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
+<concesionario>
+        <coche>
+            <codCoche>147258369</codCoche>
+            <marca>Seat</marca>
+            <modelo>Ibiza</modelo>
+            <matricula>3560DYG</matricula>
+            <potencia>110</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>369258147</codCoche>
+            <marca>Seat</marca>
+            <modelo>Leon</modelo>
+            <matricula>6587FET</matricula>
+            <potencia>105</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>123456789</codCoche>
+            <marca>Nissan</marca>
+            <modelo>X-Trail</modelo>
+            <matricula>9854YGR</matricula>
+            <potencia>150</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>321654987</codCoche>
+            <marca>Audi</marca>
+            <modelo>A6</modelo>
+            <matricula>9671LKH</matricula>
+            <potencia>160</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>963741852</codCoche>
+            <marca>Mercedes Benz</marca>
+            <modelo>GLA 220</modelo>
+            <matricula>2485FTH</matricula>
+            <potencia>130</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+        <coche>
+            <codCoche>197643258</codCoche>
+            <marca>Volkswagen</marca>
+            <modelo>Golf 8</modelo>
+            <matricula>5478JJK</matricula>
+            <potencia>160</potencia>
+            <plazas>5</plazas>
+            <numPuertas>5</numPuertas>
+        </coche>
+</concesionario>
