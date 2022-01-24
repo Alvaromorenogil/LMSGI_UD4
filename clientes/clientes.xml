@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "clientes.dtd">
+
+<clientes>
+    <sede codigo="A1234567">
+        <direccion>Virgen del Carmen Nº 8</direccion>
+        <nombreEmpleado>Alvaro Moreno Gil</nombreEmpleado>
+        <fechaAlta>24/01/2022</fechaAlta>
+        <descripcion>Solvente</descripcion>
+
+        <cliente codigo="AAA-111">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>50,000.00</costeVivienda>
+            <resumenViviendas>Vacia</resumenViviendas>
+            <plazoAlta>25/01/2022</plazoAlta>
+        </cliente>
+        <cliente codigo="AAA-222">
+            <numViviendas>2</numViviendas>
+            <costeVivienda>100,000.00</costeVivienda>
+            <resumenViviendas>Amueblada</resumenViviendas>
+            <plazoAlta>26/01/2022</plazoAlta>
+        </cliente>
+    </sede>
+    <sede codigo="B1234567">
+        <direccion>Calle Ebro Nº 4</direccion>
+        <nombreEmpleado>Paola Gómez Arispon</nombreEmpleado>
+        <fechaAlta>27/01/2022</fechaAlta>
+        <descripcion>Insolvente</descripcion>
+
+        <cliente codigo="BBB-111">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>10,000.00</costeVivienda>
+            <resumenViviendas>Estropeada</resumenViviendas>
+            <plazoAlta>28/01/2022</plazoAlta>
+        </cliente>
+        <cliente codigo="BBB-222">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>70,000.00</costeVivienda>
+            <resumenViviendas>Impecable</resumenViviendas>
+            <plazoAlta>29/01/2022</plazoAlta>
+        </cliente>
+    </sede>
+</clientes>
