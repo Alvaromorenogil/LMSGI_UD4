@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT practicas (alumno)+>
+<!ATTLIST practicas>
+<!ELEMENT alumno (nif,resultado,observaciones,(ip|mac))>
+<!ATTLIST alumno>
+<!ELEMENT nif (#PCDATA)>
+<!ATTLIST nif>
+<!ELEMENT resultado (#PCDATA)>
+<!ATTLIST resultado>
+<!ELEMENT observaciones (nombre,apellidos,edad,ciudad)>
+<!ATTLIST observaciones>
+<!ELEMENT ip (#PCDATA)>
+<!ATTLIST ip>
+<!ELEMENT mac (#PCDATA)>
+<!ATTLIST mac>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre>
+<!ELEMENT apellidos (#PCDATA)>
+<!ATTLIST apellidos>
+<!ELEMENT edad (#PCDATA)>
+<!ATTLIST edad>
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST ciudad>

@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="0.1" xml:lang="es">
+<xs:annotation>
+    <xs:documentation xml:lang="Es-es">
+        Esquema para la libreria.
+        <fecha>28/01/2022</fecha>
+        <autor>Álvaro Moreno</autor>
+    </xs:documentation>
+</xs:annotation>
     <xs:element name="listalibros">
         <xs:complexType>
             <xs:sequence>

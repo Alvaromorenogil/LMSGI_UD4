@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    version="0.1" xml:lang="es">
+<xs:annotation>
+    <xs:documentation xml:lang="Es-es">
+        Esquema para las practicas.
+        <fecha>04/02/2022</fecha>
+        <autor>Álvaro Moreno</autor>
+    </xs:documentation>
+</xs:annotation>
+  <xs:element name="practicas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="alumno"/>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="alumno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nif"/>
+        <xs:element ref="resultado"/>
+        <xs:element ref="observaciones"/>
+        <xs:choice>
+          <xs:element ref="ip"/>
+          <xs:element ref="mac"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nif" type="xs:NMTOKEN"/>
+  <xs:element name="resultado" type="xs:string"/>
+  <xs:element name="observaciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="apellidos"/>
+        <xs:element ref="edad"/>
+        <xs:element ref="ciudad"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:NCName"/>
+  <xs:element name="apellidos" type="xs:string"/>
+  <xs:element name="edad" type="xs:string"/>
+  <xs:element name="ciudad" type="xs:NCName"/>
+  <xs:element name="ip" type="xs:NMTOKEN"/>
+  <xs:element name="mac" type="xs:NMTOKEN"/>
+</xs:schema>

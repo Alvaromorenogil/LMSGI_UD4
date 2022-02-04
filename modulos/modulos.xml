@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modulos.xsd">
+	<alumno>
+		<nif>11111111A</nif>
+		<resultado>Apto</resultado>
+		<observaciones>
+			<nombre>Alvaro</nombre>
+			<apellidos>Moreno Gil</apellidos>
+			<edad>20 años</edad>
+			<ciudad>Villamartín</ciudad>
+		</observaciones>
+		<ip>127.0.0.1</ip>	
+	</alumno>
+	<alumno>
+		<nif>22222222B</nif>
+		<resultado>No apto</resultado>
+		<observaciones>
+			<nombre>Paola</nombre>
+			<apellidos>Gómez Arispon</apellidos>
+			<edad>19 años</edad>
+			<ciudad>Sevilla</ciudad>
+		</observaciones>
+		<mac>11:AA:22:BB:33:44</mac>
+	</alumno>
+</modulos>
