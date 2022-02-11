@@ -1,23 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!ELEMENT clientes (sede)+>
-<!ATTLIST clientes>
+<!ATTLIST clientes
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT sede (direccion,nombreEmpleado,fechaAlta,descripcion,cliente+)>
-<!ATTLIST sede>
+<!ATTLIST sede
+  xmlns CDATA #FIXED ''
+  codigo NMTOKEN #REQUIRED>
+
 <!ELEMENT direccion (#PCDATA)>
-<!ATTLIST direccion>
+<!ATTLIST direccion
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT nombreEmpleado (#PCDATA)>
-<!ATTLIST nombreEmpleado>
+<!ATTLIST nombreEmpleado
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT fechaAlta (#PCDATA)>
-<!ATTLIST fechaAlta>
+<!ATTLIST fechaAlta
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT descripcion (#PCDATA)>
-<!ATTLIST descripcion>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT cliente (numViviendas,costeVivienda,resumenViviendas,plazoAlta)>
-<!ATTLIST cliente>
+<!ATTLIST cliente
+  xmlns CDATA #FIXED ''
+  codigo NMTOKEN #REQUIRED>
+
 <!ELEMENT numViviendas (#PCDATA)>
-<!ATTLIST numViviendas>
+<!ATTLIST numViviendas
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT costeVivienda (#PCDATA)>
-<!ATTLIST costeVivienda>
+<!ATTLIST costeVivienda
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT resumenViviendas (#PCDATA)>
-<!ATTLIST resumenViviendas>
+<!ATTLIST resumenViviendas
+  xmlns CDATA #FIXED ''>
+  
 <!ELEMENT plazoAlta (#PCDATA)>
-<!ATTLIST plazoAlta>
+<!ATTLIST plazoAlta
+  xmlns CDATA #FIXED ''>

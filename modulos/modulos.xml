@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modulos.xsd">
-	<alumno>
-		<nif>11111111A</nif>
-		<resultado>Apto</resultado>
-		<observaciones>
-			<nombre>Alvaro</nombre>
-			<apellidos>Moreno Gil</apellidos>
-			<edad>20 años</edad>
-			<ciudad>Villamartín</ciudad>
-		</observaciones>
-		<ip>127.0.0.1</ip>	
-	</alumno>
-	<alumno>
-		<nif>22222222B</nif>
-		<resultado>No apto</resultado>
-		<observaciones>
-			<nombre>Paola</nombre>
-			<apellidos>Gómez Arispon</apellidos>
-			<edad>19 años</edad>
-			<ciudad>Sevilla</ciudad>
-		</observaciones>
-		<mac>11:AA:22:BB:33:44</mac>
-	</alumno>
+	<DAM>
+		<unidadesDidacticas>
+			<asignatura>
+				<nombre>Lenguaje De Marcas</nombre>
+				<contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5</contenidos>
+				<tipo>1</tipo>
+				<descripcion>Crear un esquema XML</descripcion>
+			</asignatura>
+			<asignatura>
+				<nombre>Enotrno De Desarrollo</nombre>
+				<contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5</contenidos>
+				<tipo>2</tipo>
+				<descripcion>Depuración de codigo</descripcion>
+			</asignatura>
+			<asignatura>
+				<nombre>Base De Datos</nombre>
+				<contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5</contenidos>
+				<tipo>3</tipo>
+				<descripcion>Transformación de esquema relacional</descripcion>
+			</asignatura>
+			<asignatura>
+				<nombre>Programación</nombre>
+				<contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5</contenidos>
+				<tipo>1</tipo>
+				<descripcion>Programación en JavaFX</descripcion>
+			</asignatura>
+			<asignatura>
+				<nombre>Sistemas Informáticos</nombre>
+				<contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5</contenidos>
+				<tipo>1</tipo>
+				<descripcion>Comandos de linux</descripcion>
+			</asignatura>
+		</unidadesDidacticas>	
+	</DAM>
 </modulos>

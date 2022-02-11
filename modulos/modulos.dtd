@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT modulos (DAM)>
+<!ATTLIST modulos
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT DAM (unidadesDidacticas)>
+<!ATTLIST DAM
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT unidadesDidacticas (asignatura)+>
+<!ATTLIST unidadesDidacticas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT asignatura (nombre,contenidos,tipo,descripcion)>
+<!ATTLIST asignatura
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contenidos (#PCDATA)>
+<!ATTLIST contenidos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
