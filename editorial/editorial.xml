@@ -43,5 +43,7 @@
                     <librosVendidos>30000</librosVendidos>
             </sur>
         </region>
+        <trimestre>Trimestre</trimestre>
+        <libros_vendidos>Libros vendidos</libros_vendidos>
     </tabla>
 </editorial>
